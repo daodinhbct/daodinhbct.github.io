@@ -100,7 +100,7 @@ $(document).ready(function() {
                     $('#txtEmail').val('');
                     $('#txtDescription').val('');
                     $('#frmMobile').bootstrapValidator('resetForm', true);
-                    toastr.success('Cảm ơn bạn đã đăng ký.</br>Chúng tôi sẽ liên hệ tư vấn sớm nhất!', {
+                    toastr.success('THANK YOU !</br> Nhân viên tư vấn sẽ liên hệ với bạn ngay', {
                         timeOut: 5000
                     })
                 }
@@ -184,7 +184,7 @@ $(document).ready(function() {
                     $('#txtDescriptionReg').val('');
                     $('#frmMobileRegister').bootstrapValidator('resetForm', true);
                     $('#dangky').modal('hide');
-                    toastr.success('Cảm ơn bạn đã đăng ký.</br>Chúng tôi sẽ liên hệ tư vấn sớm nhất!', {
+                    toastr.success('THANK YOU !</br> Nhân viên tư vấn sẽ liên hệ với bạn ngay', {
                         timeOut: 5000
                     })
                 }
