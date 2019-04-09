@@ -87,7 +87,7 @@ $(document).ready(function() {
                 contentType: 'application/json; charset=utf-8',
                 dataType: 'jsonp',
                 success: function(states) {
-                    $('#frmMobile').bootstrapcontent - mobileValidator('resetForm', true);
+                    $('#frmMobile').bootstrapValidator('resetForm', true);
                     hideLoadingContactImage('content-mobile', 'formContentContactMobile');
                 },
                 error: function(ex) {
